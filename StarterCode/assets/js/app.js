@@ -424,8 +424,7 @@ function visualize(HealthData) {
     }
   });
 
-  // Part 5: Mobile Responsive
-  // =========================
+
   // resize and redraw the chart according to the dimension of the window.
 
   d3.select(window).on("resize", resize);
